@@ -1,3 +1,6 @@
-boto3==1.24.13
-botocore==1.7.48
-python-magic==0.4.18
+# S3 client libraries – keep these in the same major.minor series as Frappe
+boto3>=1.34,<2
+botocore>=1.34,<2
+
+# File‑type detection; no need to pin to an exact point‑release
+python-magic>=0.4.18
